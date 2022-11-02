@@ -27,7 +27,7 @@ public class ProductPage {
     @FindBy(id = "addToCart")
     WebElement addFirstProduct;
 
-    @FindBy(css = "a[class='checkoutui-Modal-2iZXl']")
+    @FindBy(xpath = "//a[@class='checkoutui-Modal-iHhyy79iR28NvF33vKJb']")
     WebElement closeNotificationLink;
 
     @FindBy(xpath = "(//div[@class='addToCart']//button)[2]")
