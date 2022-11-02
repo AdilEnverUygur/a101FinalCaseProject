@@ -1,0 +1,14 @@
+2022-11-02 09:30:42 INFO  Log:9 - Hepsiburada onStart :-Tests For Hepsiburada
+2022-11-02 09:30:51 INFO  Log:9 - homePageSteps Started
+2022-11-02 09:30:51 INFO  Log:9 - 
+2022-11-02 09:30:55 INFO  Log:9 - homePageSteps Passed
+2022-11-02 09:30:55 INFO  Log:9 - loginPageSteps Started
+2022-11-02 09:30:55 INFO  Log:9 - 
+2022-11-02 09:31:08 INFO  Log:9 - loginPageSteps Passed
+2022-11-02 09:31:08 INFO  Log:9 - productPageSteps Started
+2022-11-02 09:31:08 INFO  Log:9 - 
+2022-11-02 09:31:34 INFO  Log:9 - productPageSteps Passed
+2022-11-02 09:31:43 INFO  Log:9 - productPageSteps Started
+2022-11-02 09:31:43 INFO  Log:9 - 
+2022-11-02 09:32:03 INFO  Log:9 - productPageSteps Passed
+2022-11-02 09:32:04 INFO  Log:9 - Hepsiburada  onFinish :-Tests For Hepsiburada
