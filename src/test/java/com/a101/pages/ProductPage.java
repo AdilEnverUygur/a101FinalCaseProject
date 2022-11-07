@@ -9,12 +9,14 @@ public class ProductPage {
     WebDriver driver;
     Utility utility;
 
+    //Class Constructor
     public ProductPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
         utility = new Utility(driver);
     }
 
+    //Web Elements
     @FindBy(css = "input[class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']")
     WebElement searchBox;
 
@@ -42,6 +44,7 @@ public class ProductPage {
     @FindBy(xpath = "(//a[.='Samsung 27\" LS27AG320NUXUF 165Hz 1ms HDMI Dp Freesync Va LED M'])[2]")
     WebElement checkSecondProduct;
 
+    //Element actions methods
     public void fillSearchBox(String productName){
         utility.waitForElementPresent(searchBox);
         searchBox.sendKeys(productName);

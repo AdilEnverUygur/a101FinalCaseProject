@@ -14,11 +14,16 @@ import org.testng.annotations.Test;
 
 public class NonUserLogin extends BasePage {
 
+   //Global objects and variable
    HomePage homePage;
    ProductPage productPage;
    Utility utility;
    String url = ReadFromFile.readConfigProperties("url");
 
+    /**
+     * Setup browser and navigate hepsiburade website
+     * Object creation and identify the driver
+     */
     @BeforeClass(alwaysRun = true)
     public void setUp(){
         setUpBrowser(url);
@@ -29,6 +34,11 @@ public class NonUserLogin extends BasePage {
     }
 
 
+    /**
+     * 1.Close Cookie
+     * 2.Search specific product and add to cart from two seller
+     * then verify the selected product is correct.
+     */
     @Test
     public void productPageSteps(){
         homePage.clickAcceptHandler();
@@ -48,6 +58,7 @@ public class NonUserLogin extends BasePage {
         Log.info("Test Başarılı oldu");
     }
 
+    //Close chrome
     @AfterClass(alwaysRun = true)
     public void tearDown(){
         teardown();

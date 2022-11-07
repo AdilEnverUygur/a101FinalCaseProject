@@ -15,12 +15,17 @@ import org.testng.annotations.Test;
 
 public class UserLogin extends BasePage {
 
+   //Global objects and variable
    HomePage homePage;
    LoginPage loginPage;
    ProductPage productPage;
    Utility utility;
    String url = ReadFromFile.readConfigProperties("url");
 
+    /**
+     * Setup browser and navigate hepsiburade website
+     * Object creation and identify the driver
+     */
     @BeforeClass(alwaysRun = true)
     public void setUp(){
         setUpBrowser(url);
@@ -32,6 +37,9 @@ public class UserLogin extends BasePage {
         utility = new Utility(driver);
     }
 
+    /**
+     * Close Cookie and go to the login page
+     */
     @Test
     public void homePageSteps(){
         homePage.clickAcceptHandler();
@@ -40,6 +48,9 @@ public class UserLogin extends BasePage {
         Assert.assertTrue(homePage.isInLoginPage());
     }
 
+    /**
+     * Do login operation
+     */
     @Test()
     public void loginPageSteps(){
         Log.info("Kullanıcı giriş işlemi yapılır.");
@@ -51,6 +62,10 @@ public class UserLogin extends BasePage {
         Log.info("Yönlendirmeden sonra anasayfada kullanıcı giriş işleminin yapıldığı doğrulandı");
     }
 
+    /**
+     * Search specific product and add to cart from two seller
+     * then verify the selected product is correct.
+     */
     @Test
     public void productPageSteps(){
         productPage.fillSearchBox(ReadFromFile.readConfigProperties("productName"));
@@ -69,6 +84,7 @@ public class UserLogin extends BasePage {
 
     }
 
+    //Close chrome
     @AfterClass(alwaysRun = true)
     public void tearDown(){
         teardown();

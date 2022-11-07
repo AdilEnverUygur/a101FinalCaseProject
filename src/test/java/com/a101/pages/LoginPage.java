@@ -11,12 +11,14 @@ public class LoginPage{
     WebDriver driver;
     Utility utility;
 
+    //Class Constructor
     public LoginPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
         utility = new Utility(driver);
     }
 
+    //Web Elements
     @FindBy(id = "btnFacebook")
     WebElement btnFacebook;
 
@@ -32,6 +34,7 @@ public class LoginPage{
     @FindBy(xpath = "//span[.='Hesabım']")
     WebElement verify;
 
+    //Element actions methods
     public void clickFacebookButton(){
         utility.waitForElementPresent(btnFacebook);
         btnFacebook.click();

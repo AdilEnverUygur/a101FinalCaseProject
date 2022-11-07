@@ -12,12 +12,14 @@ public class HomePage{
     WebDriver driver;
     Utility utility;
 
+    //Class Constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
         utility=new Utility(driver);
     }
 
+    //Web Elements
     @FindBy(xpath = "//button[.='Kabul Et']")
     WebElement acceptHandler;
 
@@ -30,6 +32,8 @@ public class HomePage{
     @FindBy(xpath = "//div[.='Yeni giriş yöntemi!']")
     WebElement verify;
 
+
+    //Element actions methods
     public void clickAcceptHandler(){
         utility.waitForElementPresent(acceptHandler);
         acceptHandler.click();

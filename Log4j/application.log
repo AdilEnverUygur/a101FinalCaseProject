@@ -1,14 +1,30 @@
-2022-11-02 09:30:42 INFO  Log:9 - Hepsiburada onStart :-Tests For Hepsiburada
-2022-11-02 09:30:51 INFO  Log:9 - homePageSteps Started
-2022-11-02 09:30:51 INFO  Log:9 - 
-2022-11-02 09:30:55 INFO  Log:9 - homePageSteps Passed
-2022-11-02 09:30:55 INFO  Log:9 - loginPageSteps Started
-2022-11-02 09:30:55 INFO  Log:9 - 
-2022-11-02 09:31:08 INFO  Log:9 - loginPageSteps Passed
-2022-11-02 09:31:08 INFO  Log:9 - productPageSteps Started
-2022-11-02 09:31:08 INFO  Log:9 - 
-2022-11-02 09:31:34 INFO  Log:9 - productPageSteps Passed
-2022-11-02 09:31:43 INFO  Log:9 - productPageSteps Started
-2022-11-02 09:31:43 INFO  Log:9 - 
-2022-11-02 09:32:03 INFO  Log:9 - productPageSteps Passed
-2022-11-02 09:32:04 INFO  Log:9 - Hepsiburada  onFinish :-Tests For Hepsiburada
+2022-11-03 23:16:09 INFO  Log:9 - Hepsiburada onStart :-Tests For Hepsiburada
+2022-11-03 23:16:15 INFO  Log:9 - Kullanıcı Hepsiburada.com sitesini ziyaret eder.
+2022-11-03 23:16:15 INFO  Log:9 - Çerezler Kabul Edildi
+2022-11-03 23:16:15 INFO  Log:9 - homePageSteps Started
+2022-11-03 23:16:15 INFO  Log:9 - 
+2022-11-03 23:16:20 INFO  Log:9 - homePageSteps Passed
+2022-11-03 23:16:20 INFO  Log:9 - loginPageSteps Started
+2022-11-03 23:16:20 INFO  Log:9 - 
+2022-11-03 23:16:20 INFO  Log:9 - Kullanıcı giriş işlemi yapılır.
+2022-11-03 23:16:33 INFO  Log:9 - Yönlendirmeden sonra anasayfada kullanıcı giriş işleminin yapıldığı doğrulandı
+2022-11-03 23:16:33 INFO  Log:9 - loginPageSteps Passed
+2022-11-03 23:16:33 INFO  Log:9 - productPageSteps Started
+2022-11-03 23:16:33 INFO  Log:9 - 
+2022-11-03 23:16:34 INFO  Log:9 - Kullanıcı, burada satın almak istediği ürün için arama yaptı.
+2022-11-03 23:16:36 INFO  Log:9 - Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden ürün seçti.
+2022-11-03 23:16:43 INFO  Log:9 - Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklendi.
+2022-11-03 23:16:48 INFO  Log:9 - Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanmalıdı.
+2022-11-03 23:16:49 INFO  Log:9 - Test Başarılı oldu
+2022-11-03 23:16:49 INFO  Log:9 - productPageSteps Passed
+2022-11-03 23:16:55 INFO  Log:9 - Kullanıcı Hepsiburada.com sitesini ziyaret eder.
+2022-11-03 23:16:55 INFO  Log:9 - productPageSteps Started
+2022-11-03 23:16:55 INFO  Log:9 - 
+2022-11-03 23:16:55 INFO  Log:9 - Çerezler Kabul Edildi
+2022-11-03 23:16:56 INFO  Log:9 - Kullanıcı, burada satın almak istediği ürün için arama yaptı.
+2022-11-03 23:16:59 INFO  Log:9 - Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden ürün seçti.
+2022-11-03 23:17:07 INFO  Log:9 - Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklendi.
+2022-11-03 23:17:11 INFO  Log:9 - Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanmalıdı.
+2022-11-03 23:17:12 INFO  Log:9 - Test Başarılı oldu
+2022-11-03 23:17:12 INFO  Log:9 - productPageSteps Passed
+2022-11-03 23:17:12 INFO  Log:9 - Hepsiburada  onFinish :-Tests For Hepsiburada
